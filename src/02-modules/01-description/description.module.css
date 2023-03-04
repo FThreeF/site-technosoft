@@ -1,0 +1,26 @@
+.wrapper {
+    height: 100%;
+    box-sizing: padding-box;
+    background: url(source/image/header-background.png) top center /cover no-repeat;
+}
+
+.container {
+    padding-top: 162px;
+    max-width: 1500px;
+}
+
+
+.title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 96px;
+    color: #FFFFFF;
+    margin-top: -20px;
+}
+
+.subtitle {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 36px;
+    color: #FFFFFF;
+}

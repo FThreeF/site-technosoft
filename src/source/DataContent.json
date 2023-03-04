@@ -1,0 +1,20 @@
+{
+    "Main": {
+        "Description": {
+            "subtitleTop": "Разработка продукта с полного 0",
+            "title": "МТК ТехноСофт",
+            "subtitleBottom": "Проффесиональные услуги в области IT любой сложности",
+            "SliderDescription": {
+                "title": "TECHNOSOFT",
+                "slider": [
+                    "Молодая компания, не уступающая конкурентам во многих аспектах. Мы представляет широкий спектр услуг в сфере IT",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab tempore repellat maxime soluta dicta ullam reiciendis recusandae qui expedita.",
+                    "Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1",
+                    "Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2"
+                   
+                ],
+                "signature": "Услуги"
+            }
+        }
+    }
+}
