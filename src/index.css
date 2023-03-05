@@ -8,7 +8,9 @@
   font-family: sans-serif;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   width: 100%;
   height: 100%;
 }
@@ -19,9 +21,13 @@ html, body, #root {
 
 .container {
   max-width: 1300px;
-  height: 100%;
   margin: 0 auto;
-  zoom: 65%;
 }
 
 .title {}
+
+@media screen and (max-width: 1300px) {
+  .wrapper {
+    zoom: 65%;
+  }
+}

@@ -1,0 +1,13 @@
+.wrapper {
+    width: 100%;
+    padding: 75px 0;
+}   
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 31px;
+    justify-content: center;
+    transition: 500ms;
+}
+

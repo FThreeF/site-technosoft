@@ -5,8 +5,10 @@
 }
 
 .container {
-    padding-top: 162px;
     max-width: 1500px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
