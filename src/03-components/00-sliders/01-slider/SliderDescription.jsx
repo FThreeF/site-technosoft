@@ -12,6 +12,9 @@ export default class SliderDescription extends Component {
         this.previous = this.previous.bind(this);
     }
 
+
+
+
     next() {
         this.slider.slickNext();
     }
@@ -29,35 +32,41 @@ export default class SliderDescription extends Component {
             className: styleNames.slider,
             arrows: false,
             infinite: true,
-            speed: 500,
+            speed: 0,
             slidesToShow: 1,
             slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 5000,
             beforeChange: (current, next) => this.setState({ activeSlide: next }),
             afterChange: current => this.setState({ activeSlide2: current })
         };
         return (
             <div className={styleNames.wrapper}>
-                <h2 className={styleNames.title}>{this.props.DataSliderDescription.title}</h2>
+
                 <Slider ref={c => (this.slider = c)} {...settings}>
-                    {this.props.DataSliderDescription.slider.map(text =>
+                    {this.props.DataSliderDescription.Slider.map((el) =>
                         <div>
-                            <SliderBlock height={'160px'}>
-                                <p className={styleNames.text}>{text}</p>
+                            <SliderBlock key={el.id} className={styleNames.sliderBlock}>
+                                <h2 className={styleNames.text}>{el.title}</h2>
+                                <div className={styleNames.sliderGroup}>
+                                    <p className={styleNames.text}>{el.text}</p>
+                                    <div className={styleNames.signature}>{el.signature}</div>
+                                </div>
                             </SliderBlock>
                         </div>
                     )}
                 </Slider>
+
                 <div className={styleNames.block}>
                     <div className={styleNames.arrow} onClick={this.previous}>&#8249;</div>
                     <p className={styleNames.number}>{this.state.activeSlide + 1}</p>
                     <div className={styleNames.progressBar}>
                         <div className={styleNames.progressBackground}></div>
-                        <div className={styleNames.progressValue} style={{ width: ((100 / this.props.DataSliderDescription.slider.length) * (this.state.activeSlide + 1)) + '%' }}></div>
+                        <div className={styleNames.progressValue} style={{ width: ((100 / this.props.DataSliderDescription.Slider.length) * (this.state.activeSlide + 1)) + '%' }}></div>
                     </div>
-                    <p className={styleNames.number}>{this.props.DataSliderDescription.slider.length}</p>
+                    <p className={styleNames.number}>{this.props.DataSliderDescription.Slider.length}</p>
                     <div className={styleNames.arrow} onClick={this.next}>&#8250;</div>
                 </div>
-                <h3 className={styleNames.signature}>{this.props.DataSliderDescription.signature}</h3>
 
             </div>
         );

@@ -5,14 +5,56 @@
             "title": "МТК ТехноСофт",
             "subtitleBottom": "Проффесиональные услуги в области IT любой сложности",
             "SliderDescription": {
-                "title": "TECHNOSOFT",
-                "slider": [
-                    "Молодая компания, не уступающая конкурентам во многих аспектах. Мы представляет широкий спектр услуг в сфере IT",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab tempore repellat maxime soluta dicta ullam reiciendis recusandae qui expedita.",
-                    "Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1 Услуга 1",
-                    "Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2 Услуга 2"
-                ],
-                "signature": "Услуги"
+                "Slider": [
+                    {
+                        "id": 1,
+                        "title": "TECHNOSOFT",
+                        "text": "Молодая компания, не уступающая конкурентам во многих аспектах. Мы представляет широкий спектр услуг в сфере IT",
+                        "signature": "О нас"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Test1",
+                        "text": "a1 a1 a1 a1 a1 a1 a1 a1 a1",
+                        "signature": "Услуги-1"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Test2",
+                        "text": "b2 b2 b2 b2 b2 b2 b2 b2 b2 b2 b2 b2 b2 b2 b2",
+                        "signature": "Услуги-2"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Test3",
+                        "text": "a1 a1 a1 a1 a1 a1 a1 a1 a1",
+                        "signature": "Услуги-1"
+                    },
+                    {
+                        "id": 5,
+                        "title": "Test3",
+                        "text": "a1 a1 a1 a1 a1 a1 a1 a1 a1",
+                        "signature": "Услуги-1"
+                    },
+                    {
+                        "id": 6,
+                        "title": "Tesasdt3",
+                        "text": "a1 a1 a1 a1 a1 adasd1 a1 a1 a1",
+                        "signature": "Услуги-1"
+                    },
+                    {
+                        "id": 7,
+                        "title": "Test3",
+                        "text": "a1 a1 adasdad1 a1 a1 a1 a1 a1 a1",
+                        "signature": "Услуasdги-1"
+                    },
+                    {
+                        "id": 8,
+                        "title": "Teasdasdast3",
+                        "text": "a1 a1 a1asd a1 a1 a1 a1 a1 a1",
+                        "signature": "Услуги-1"
+                    }
+                ]
             }
         },
         "Services": {
