@@ -1,0 +1,69 @@
+.wrapper {
+    position: fixed;
+    
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    border-right: 2px solid gray;
+    z-index: 10;
+    transition: 300ms;
+    align-items: center;
+    padding: 70px 0;
+
+}
+
+.wrapper:hover {
+
+    transition: 300ms;
+    left: 0;
+}
+
+
+.button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 46px;
+    height: 46px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 100px;
+    margin: 0 auto;
+    transition: 300ms;
+}
+
+.button:hover {
+    border: 2px solid #1A98CE;
+    transition: 300ms;
+}
+
+.line {
+    width: 36px;
+    height: 2px;
+    background-color: #1A98CE;
+    transition: 150ms;
+}
+
+.button:hover .line {
+    width: 26px;
+    transition: 150ms;
+}
+
+
+.title, .contact {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    transform: rotate(-90deg) translateX(50%);
+    color: gray;
+    white-space: nowrap;
+}

@@ -1,3 +1,4 @@
+import React from 'react';
 import SliderDescription from '03-components/00-sliders/01-slider/SliderDescription';
 import styleNames from './description.module.css';
 

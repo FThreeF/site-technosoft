@@ -1,3 +1,4 @@
+import React from 'react';
 import styleNames from './sliderTest.module.css';
 import SliderBlock from "04-elements/02-blocks/01-sliderBlock/SliderBlock";
 

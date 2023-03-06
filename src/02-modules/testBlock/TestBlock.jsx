@@ -1,3 +1,4 @@
+import React from 'react';
 import styleNames from './testBlock.module.css';
 
 const TestBlock = ({title}) => {

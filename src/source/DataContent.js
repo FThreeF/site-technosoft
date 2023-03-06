@@ -1,5 +1,19 @@
-{
+import DataAnalytics from "source/image/serives/DataAnalitycs.png";
+import Standards from "source/image/serives/Standards.png";
+import Parsing from "source/image/serives/Parsing.png";
+import Bots from "source/image/serives/Bots.png";
+import SiteLayout from "source/image/serives/SiteLayout.png";
+import Support from "source/image/serives/Support.png";
+import Logo from "source/image/icon/Logo.png";
+
+
+export const DataContent = {
     "Main": {
+        "Header": {
+            "logo": Logo,
+            "title": "TECHNOSOFT",
+            "contact": "+7 964 634 55 53"
+        },
         "Description": {
             "subtitleTop": "Разработка продукта с полного 0",
             "title": "МТК ТехноСофт",
@@ -61,32 +75,33 @@
             "Service": [
                 {
                     "title": "Аналитика данных — решения с применением алгоритмов ML",
-                    "text": "Выявление и определение приоритетности новых функций для разработки продукта. Анализ  требований клиента, предоставление больших функций за меньшее время и быстрый запуск новых продуктов"
+                    "text": "Выявление и определение приоритетности новых функций для разработки продукта. Анализ  требований клиента, предоставление больших функций за меньшее время и быстрый запуск новых продуктов",
+                    "image": DataAnalytics
                 },
                 {
                     "title": "Стандарты — золотой, серебряный и бронзовый",
                     "text": "Обеспечение надежной основой для выработки общих ожиданий в отношении того или иного продукта или услуги",
-                    "image": "https://www.meme-arsenal.com/memes/50569ac974c29121ff9075e45a334942.jpg"
+                    "image": Standards
                 },
                 {
                     "title": "Парсинг — сбор информации из сторонних источников",
                     "text": "Удобный способ автоматизировать сбор больших объемов информации из интернета. Его главные преимущества — скорость, точность и автономность",
-                    "image": "https://www.meme-arsenal.com/memes/50569ac974c29121ff9075e45a334942.jpg"
+                    "image": Parsing
                 },
                 {
                     "title": "Боты — создание для любой платформы",
                     "text": "Позволяет минимизировать расходы, связанные с ежедневным и однотипным взаимодействием с большим количеством пользователей",
-                    "image": "https://www.meme-arsenal.com/memes/50569ac974c29121ff9075e45a334942.jpg"
+                    "image": Bots
                 },
                 {
                     "title": "Верстка сайтов — создание сайтов любой сложности",
                     "text": "Структурированное сочетание изображений, заголовков, подзаголовков, таблиц, инфографик, текста и других элементов на странице c помощью языка разметки HTML и языка описания внешнего вида страницы CSS",
-                    "image": "https://www.meme-arsenal.com/memes/50569ac974c29121ff9075e45a334942.jpg"
+                    "image": SiteLayout
                 },
                 {
                     "title": "Поддержка продуктов — сопровождение любых ПО",
                     "text": "Комплекс услуг для обеспечения бесперебойной работы ИТ-инфраструктуры компании",
-                    "image": "https://www.meme-arsenal.com/memes/50569ac974c29121ff9075e45a334942.jpg"
+                    "image": Support
                 }
             ]
         }
