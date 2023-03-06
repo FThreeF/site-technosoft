@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/site-technosoft/static/css/main.40f82541.css",
-    "main.js": "/site-technosoft/static/js/main.5fe6c447.js",
+    "main.css": "/site-technosoft/static/css/main.22568a01.css",
+    "main.js": "/site-technosoft/static/js/main.eabe83c5.js",
     "static/media/header-background.png": "/site-technosoft/static/media/header-background.4f10bebd51344c662098.png",
-    "static/media/DataAnalyticsImage.png": "/site-technosoft/static/media/DataAnalyticsImage.104e371b896cfea27c7e.png",
+    "static/media/Standards.png": "/site-technosoft/static/media/Standards.58d4f03cea4e54ad6185.png",
+    "static/media/Bots.png": "/site-technosoft/static/media/Bots.517fd15c4ea4de4df7a9.png",
+    "static/media/DataAnalitycs.png": "/site-technosoft/static/media/DataAnalitycs.30d06ee491165f074f05.png",
+    "static/media/Parsing.png": "/site-technosoft/static/media/Parsing.d5bbbc736f21f517e6cb.png",
+    "static/media/Support.png": "/site-technosoft/static/media/Support.e08f56cd2e622aa22b1a.png",
+    "static/media/SiteLayout.png": "/site-technosoft/static/media/SiteLayout.f32f3591191b929723ba.png",
     "static/media/slick.svg": "/site-technosoft/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/site-technosoft/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/site-technosoft/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/site-technosoft/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/site-technosoft/index.html",
-    "main.40f82541.css.map": "/site-technosoft/static/css/main.40f82541.css.map",
-    "main.5fe6c447.js.map": "/site-technosoft/static/js/main.5fe6c447.js.map"
+    "main.22568a01.css.map": "/site-technosoft/static/css/main.22568a01.css.map",
+    "main.eabe83c5.js.map": "/site-technosoft/static/js/main.eabe83c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.40f82541.css",
-    "static/js/main.5fe6c447.js"
+    "static/css/main.22568a01.css",
+    "static/js/main.eabe83c5.js"
   ]
 }
