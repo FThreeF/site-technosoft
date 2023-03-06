@@ -67,7 +67,7 @@
     height: 4px;
     background-color: rgba(26, 152, 206, 1);
     border-radius: 100px;
-    transition: 200ms;
+    transition: 500ms;
 }
 
 .number {

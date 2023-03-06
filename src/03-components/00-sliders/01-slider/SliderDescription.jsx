@@ -32,11 +32,11 @@ export default class SliderDescription extends Component {
             className: styleNames.slider,
             arrows: false,
             infinite: true,
-            speed: 0,
+            speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 5000,
+            autoplaySpeed: 10000,
             beforeChange: (current, next) => this.setState({ activeSlide: next }),
             afterChange: current => this.setState({ activeSlide2: current })
         };

@@ -8,6 +8,10 @@
   font-family: sans-serif;
 }
 
+*::-webkit-scrollbar {
+  width: 0;
+}
+
 html,
 body,
 #root {
@@ -26,8 +30,22 @@ body,
 
 .title {}
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1600px) {
+  .wrapper {
+    zoom: 80%;
+  }
+}
+
+
+
+@media screen and (max-width: 1400px) {
   .wrapper {
     zoom: 65%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .wrapper {
+    zoom: 55%;
   }
 }
